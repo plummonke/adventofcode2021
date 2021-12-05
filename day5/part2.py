@@ -16,7 +16,6 @@ def main():
         plane.addLine(line)
 
     total = 0
-    print(plane.coordinates)
     for x in plane.coordinates:
         for y in plane.coordinates[x]:
             if plane.coordinates[x][y] >= 2:
