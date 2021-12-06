@@ -23,11 +23,6 @@ def main():
 
             cohorts.append(c)
 
-        for x in cohorts:
-            print(x)
-
-        print()
-
     tot = 0
     for x in cohorts:
         tot += x.number

@@ -1,6 +1,5 @@
 import io
 import sys
-import typing
 
 from collections import Counter
 
